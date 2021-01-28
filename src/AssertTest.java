@@ -13,7 +13,7 @@ public class AssertTest {
 		Date date2 = new Date();
 		
 		assertEquals(date1, date2);
-		assertSame(date1, date2);
+		//assertSame(date1, date2);
 		
 		assertFalse(false);
 	}
